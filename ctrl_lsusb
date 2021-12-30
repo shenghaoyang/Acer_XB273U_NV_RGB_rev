@@ -1,0 +1,105 @@
+
+Bus 003 Device 006: ID 042e:ac0c Acer, Inc. Monitor
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               1.10
+  bDeviceClass            0 
+  bDeviceSubClass         0 
+  bDeviceProtocol         0 
+  bMaxPacketSize0        64
+  idVendor           0x042e Acer, Inc.
+  idProduct          0xac0c 
+  bcdDevice            3.01
+  iManufacturer           1 Acer Inc.
+  iProduct                2 Monitor
+  iSerial                 3 ---OMITTED---
+  bNumConfigurations      1
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength       0x0022
+    bNumInterfaces          1
+    bConfigurationValue     1
+    iConfiguration          0 
+    bmAttributes         0x80
+      (Bus Powered)
+    MaxPower              200mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         3 Human Interface Device
+      bInterfaceSubClass      0 
+      bInterfaceProtocol      0 
+      iInterface              0 
+        HID Device Descriptor:
+          bLength                 9
+          bDescriptorType        33
+          bcdHID               1.11
+          bCountryCode            0 Not supported
+          bNumDescriptors         1
+          bDescriptorType        34 Report
+          wDescriptorLength      69
+          Report Descriptor: (length is 69)
+            Item(Global): Usage Page, data= [ 0x00 0xff ] 65280
+                            (null)
+            Item(Local ): Usage, data= [ 0x01 ] 1
+                            (null)
+            Item(Main  ): Collection, data= [ 0x01 ] 1
+                            Application
+            Item(Global): Report ID, data= [ 0x23 ] 35
+            Item(Global): Report Count, data= [ 0x08 ] 8
+            Item(Global): Report Size, data= [ 0x08 ] 8
+            Item(Global): Logical Maximum, data= [ 0xff 0x00 ] 255
+            Item(Global): Logical Minimum, data= [ 0x00 ] 0
+            Item(Local ): Usage, data= [ 0x01 ] 1
+                            (null)
+            Item(Main  ): Input, data= [ 0x02 ] 2
+                            Data Variable Absolute No_Wrap Linear
+                            Preferred_State No_Null_Position Non_Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x24 ] 36
+            Item(Global): Report Count, data= [ 0x08 ] 8
+            Item(Global): Report Size, data= [ 0x08 ] 8
+            Item(Global): Logical Maximum, data= [ 0xff 0x00 ] 255
+            Item(Global): Logical Minimum, data= [ 0x00 ] 0
+            Item(Local ): Usage, data= [ 0x01 ] 1
+                            (null)
+            Item(Main  ): Output, data= [ 0x02 ] 2
+                            Data Variable Absolute No_Wrap Linear
+                            Preferred_State No_Null_Position Non_Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x26 ] 38
+            Item(Global): Report Count, data= [ 0x84 ] 132
+            Item(Global): Report Size, data= [ 0x08 ] 8
+            Item(Global): Logical Maximum, data= [ 0xff 0x00 ] 255
+            Item(Global): Logical Minimum, data= [ 0x00 ] 0
+            Item(Local ): Usage, data= [ 0x01 ] 1
+                            (null)
+            Item(Main  ): Output, data= [ 0x02 ] 2
+                            Data Variable Absolute No_Wrap Linear
+                            Preferred_State No_Null_Position Non_Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x2a ] 42
+            Item(Global): Report Count, data= [ 0x75 0x01 ] 373
+            Item(Global): Report Size, data= [ 0x08 ] 8
+            Item(Global): Logical Maximum, data= [ 0xff 0x00 ] 255
+            Item(Global): Logical Minimum, data= [ 0x00 ] 0
+            Item(Local ): Usage, data= [ 0x01 ] 1
+                            (null)
+            Item(Main  ): Output, data= [ 0x02 ] 2
+                            Data Variable Absolute No_Wrap Linear
+                            Preferred_State No_Null_Position Non_Volatile Bitfield
+            Item(Main  ): End Collection, data=none
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x000a  1x 10 bytes
+        bInterval              10
+Device Status:     0x0000
+  (Bus Powered)
